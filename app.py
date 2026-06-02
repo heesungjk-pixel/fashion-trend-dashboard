@@ -32,7 +32,7 @@ if st.button("🚀 트렌드 예측하기", use_container_width=True):
             try:
                 # Gemini API 세팅
                 genai.configure(api_key=api_key)
-                model = genai.GenerativeModel('gemini-1.5-flash')
+                model = genai.GenerativeModel('gemini-pro')
 
                 # AI에게 내릴 프롬프트 명령
                 prompt = f"""
